@@ -20,12 +20,15 @@ body{
 #header-nav li{
     display: inline-block;
 }
-.links {
-    text-decoration: none;
+.navbar-links {
+    text-decoration: none; 
     padding-left: 60px;
     color: rgb(25, 84, 100);
     font-weight: bold;
     font-size: 18px;
+}
+.navbar-links:hover{
+    color: rgb(86, 143, 158);
 }
 #img-links{
     display: flex;
@@ -41,7 +44,7 @@ body{
 }
 /* poster styling... */
 #poster{
-    background: rgba(0, 0, 0, 0.5)url(../images/bg1.jpg);
+    background:  rgba(0, 0, 0, 0.5) url(../images/bg1.jpg);
     /* background-repeat: no-repeat; */
     background-size: cover;
     background-blend-mode: darken;
@@ -57,6 +60,27 @@ body{
 #poster p{
     font-size: 40px;
     font-weight: bold;
+}
+
+/* section (dishes and information) */
+#dishes-information{
+    color: rgb(25, 84, 100);
+} 
+#dishes-information h1{
+    font-size: 35px;
+    text-align: center;
+}
+.images-3{
+    width: 200px;
+    height: 200px;
+}
+#info-images{
+    display: flex;
+
+}
+.images-3-container{
+    text-align: center;
+    padding: 60px 90px;
 }
 
 
@@ -77,19 +101,19 @@ body{
     text-underline-offset: 2px;
     text-decoration-thickness: 2px;
 }
-.footer-menu{
+.footer-links , #copyright li{
     list-style-type: none;
     padding: 0px;
 }
-.footer-menu li{
+.footer-links li{
     padding-bottom: 8px;
 }
-.footer-menu li a{
+.footer-links li a,#copyright li a{
     text-decoration: none ;
     color: white;
 }
-.footer-menu li a:hover{
-    color: blueviolet;
+.footer-links li a:hover,#copyright li a:hover{
+    color: rgb(138, 119, 119);
 }
 #div33-2{
     padding-left: 120px;
@@ -101,12 +125,14 @@ body{
     font-weight: bold;
     font-size: 25px;
 }
+/* cpoyright */
 #copyright{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     background-color: rgb(25, 84, 100);
     color: whitesmoke;
     padding: 0px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
