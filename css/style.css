@@ -11,11 +11,12 @@ body{
 .uni-padding-3{
     padding: 0px 10%;
 }
-/* header styling... */
+/* header styling start... */
 #header-nav{
     display: flex;
     /* justify-content: space-around; */
-    background-color: whitesmoke;
+    background-color: white;
+    border-bottom: 1px solid rgb(227, 225, 225);
 }
 #header-nav li{
     display: inline-block;
@@ -23,12 +24,12 @@ body{
 .navbar-links {
     text-decoration: none; 
     padding-left: 60px;
-    color: rgb(25, 84, 100);
+    color: #db2b2b;
     font-weight: bold;
     font-size: 18px;
 }
 .navbar-links:hover{
-    color: rgb(86, 143, 158);
+    color: #ff0000;
 }
 #img-links{
     display: flex;
@@ -42,7 +43,12 @@ body{
     width: 50%;
     align-items: center;
 }
-/* poster styling... */
+.current-page{
+    color: #ff0000;
+}
+
+
+/* poster styling start... */
 #poster{
     background:  rgba(0, 0, 0, 0.5) url(../images/bg1.jpg);
     /* background-repeat: no-repeat; */
@@ -63,12 +69,11 @@ body{
 }
 
 /* section (dishes and information) */
-#dishes-information{
-    color: rgb(25, 84, 100);
-} 
+
 #dishes-information h1{
     font-size: 35px;
     text-align: center;
+    color: #db2b2b;
 }
 .images-3{
     width: 200px;
