@@ -1,6 +1,9 @@
 body{
     margin: 0px;
 }
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
 /* universal padding class */
 .uni-padding-1{
     padding: 0px 5%;
@@ -54,7 +57,7 @@ body{
     /* background-repeat: no-repeat; */
     background-size: cover;
     background-blend-mode: darken;
-    height: 89.9vh;
+    height: 700px;
     color: white;
 }
 #poster h1{
@@ -87,6 +90,66 @@ body{
     text-align: center;
     padding: 60px 90px;
 }
+
+/* featured images */
+#featured-images{
+    text-align: center;
+}
+#featured-images h1{
+    color: #db2b2b;
+}
+#featured-images img{
+    width: 600px;
+}
+
+/* login and register page styling start */
+
+#login-container , #register-container{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.sec-50{
+    width: 50%;
+    text-align: center;
+}
+#login-img{
+    width: 600px;
+}
+#register-img{
+    height: 600px;
+    width: 500px;
+}
+#login-heading , #register-heading{
+    color: #db2b2b;
+    font-size: 40px;
+}
+.login-register-input{
+    width: 50%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.enter-input{
+    background-color: whitesmoke;
+    border: none;
+    padding: 25px;
+    border-radius: 5px;
+}
+#login-submit,#register-submit{
+    background-color: #db2b2b;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    padding: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+::placeholder{
+    color: rgb(177, 169, 169);
+}
+
 
 
 /* footer  */
