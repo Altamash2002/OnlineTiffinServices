@@ -50,9 +50,10 @@ input:focus, textarea:focus, select:focus{
     color: #ff0000;
 }
 
+/* home page styling start */
 
-/* poster styling start... */
-#poster{
+   /* poster styling start... */
+#home-poster{
     background:  rgba(0, 0, 0, 0.5) url(../images/bg1.jpg);
     /* background-repeat: no-repeat; */
     background-size: cover;
@@ -60,14 +61,22 @@ input:focus, textarea:focus, select:focus{
     height: 700px;
     color: white;
 }
-#poster h1{
+#home-poster-heading{
     margin: 0px;
     font-size: 80px;
     padding-top: 5%;
     font-weight: bold;
 }
-#poster p{
+#home-poster-text{
     font-size: 40px;
+    /* font-weight: bold; */
+}
+#home-shef-account-remember p{
+    font-size: 20px;
+}
+#home-shef-account-remember p a{
+    text-decoration: none;
+    color: rgb(187, 193, 179);
     font-weight: bold;
 }
 
@@ -100,9 +109,11 @@ input:focus, textarea:focus, select:focus{
 }
 #featured-images img{
     width: 600px;
+    padding: 10px;
 }
+/* home page styling end... */
 
-/* login and register page styling start */
+/* login and register page styling start...*/
 
 #login-container , #register-container{
     display: flex;
@@ -114,6 +125,19 @@ input:focus, textarea:focus, select:focus{
     width: 50%;
     text-align: center;
 }
+#sec-50-1{
+    width: 45%;
+    text-align: center;
+}
+#sec-50-2{
+    width: 55%;
+    text-align: center;
+}
+#register-address{
+    resize: none;
+    width: 680px;
+    height: 80px;
+}
 #login-img{
     width: 600px;
 }
@@ -124,19 +148,22 @@ input:focus, textarea:focus, select:focus{
 #login-heading , #register-heading{
     color: #db2b2b;
     font-size: 40px;
+    margin-top: 0px;
 }
 .login-register-input{
-    width: 50%;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    width: 310px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 .enter-input{
     background-color: whitesmoke;
     border: none;
     padding: 25px;
-    border-radius: 5px;
+    /* border-radius: 5px; */
 }
-#login-submit,#register-submit{
+#login-submit,#register-submit,#shef-register-submit{
     background-color: #db2b2b;
     color: white;
     font-size: 18px;
@@ -149,8 +176,75 @@ input:focus, textarea:focus, select:focus{
 ::placeholder{
     color: rgb(177, 169, 169);
 }
+/* login register and repage styling end... */
 
 
+/* shef page styling start... */
+#shef-poster{
+    background:  rgba(0, 0, 0, 0.6) url(../images/bg2.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 700px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+#shef-poster-heading{
+    margin-top: 15vh;
+    font-size: 80px;
+    padding-top: 5%;
+}
+#shef-poster-text{
+    font-size: 40px;
+    /* font-weight: bold; */
+}
+.shef-register-input{
+    width: 300px;
+    margin: 11px 8px;
+}
+#shef-form{
+    width: 60%;
+}
+#shef-form form{
+    margin-top: 10vh;
+    text-align: center;
+}
+#shef-form form textarea{
+    resize: none;
+    width: 670px;
+    height: 100px;
+}
+#check-terms{
+    transform: scale(2);
+    margin: 30px;
+}
+#check-label{
+    font-size: 18px;
+    font-weight: bold;
+}
+.check-terms-links{
+    color: rgb(187, 193, 179);
+    text-decoration: none;
+
+}
+#shef-form-submit{
+    background-color: #db2b2b;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    padding: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* shef page styling end... */
 
 /* footer  */
 #imp-link{

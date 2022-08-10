@@ -46,18 +46,25 @@
         </header>
 
         <!-- content -->
-        <main id="register-container" class="uni-padding-1">
-            <div class="sec-50">
+        <main id="register-container">
+            <div id="sec-50-1">
                 <img src="images/register-image.jpg" alt="login-page" id="register-img">
             </div>
-            <div class="sec-50">
+            <div id="sec-50-2">
                 <h1 id="register-heading">Sign Up</h1>
                 <form action="">
-                    <input type="text" class="login-register-input enter-input" placeholder="First Name" required> <br>
-                    <input type="text" class="login-register-input enter-input" placeholder="Last Name" required><br>
-                    <input type="email" class="login-register-input enter-input" placeholder="Email" required> <br>
-                    <input type="password" class="login-register-input enter-input" placeholder="Password" required><br>
+                    <input type="text" class="login-register-input enter-input" placeholder="First Name" required>
+                    <input type="text" class="login-register-input enter-input" placeholder="Last Name" required>
+                    <input type="email" class="login-register-input enter-input" placeholder="Email" required> 
+                    <input type="password" class="login-register-input enter-input" placeholder="Password" required>
+                    <input type="tel" class="login-register-input enter-input" placeholder="Contact No" required>
+                    <input type="number" class="login-register-input enter-input" placeholder="Pin Code" required>
+                    <textarea id="register-address" class="login-register-input enter-input" placeholder="Address" required></textarea><br>
+            
                     <input type="submit" class="login-register-input" id="register-submit" value="Rgister">
+                    <div id="home-shef-account-remember">
+                        <p>already have account? &nbsp; <a href="login.html">Login</a></p>
+                    </div>
                 </form>
             </div>
         </main>
