@@ -135,8 +135,8 @@ input:focus, textarea:focus, select:focus{
 }
 #register-address{
     resize: none;
-    width: 680px;
-    height: 80px;
+    width: 44vw;
+    height: 100px;
 }
 #login-img{
     width: 600px;
@@ -151,7 +151,7 @@ input:focus, textarea:focus, select:focus{
     margin-top: 0px;
 }
 .login-register-input{
-    width: 310px;
+    width: 20vw;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-right: 5px;
@@ -200,7 +200,7 @@ input:focus, textarea:focus, select:focus{
     /* font-weight: bold; */
 }
 .shef-register-input{
-    width: 300px;
+    width: 19vw;
     margin: 11px 8px;
 }
 #shef-form{
@@ -212,7 +212,7 @@ input:focus, textarea:focus, select:focus{
 }
 #shef-form form textarea{
     resize: none;
-    width: 670px;
+    width: 42.5vw;
     height: 100px;
 }
 #check-terms{
