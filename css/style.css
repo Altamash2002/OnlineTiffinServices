@@ -181,7 +181,7 @@ input:focus, textarea:focus, select:focus{
 
 /* shef page styling start... */
 #shef-poster{
-    background:  rgba(0, 0, 0, 0.6) url(../images/bg2.jpg);
+    background:  rgba(0, 0, 0, 0.5) url(../images/bg2.jpg);
     /* background-repeat: no-repeat; */
     background-size: cover;
     background-blend-mode: darken;
