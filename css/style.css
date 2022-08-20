@@ -246,13 +246,40 @@ input:focus, textarea:focus, select:focus{
     background-color: aqua;
     height: 200px;
 }
-.insidelogin-images-1{
+#inside-images-container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.insidelogin-images{
     display: flex;
     justify-content: space-around;
 }
-.insidelogin-images-1 img{
-    margin: 50px 0px;
-    outline: 4px solid rgb(135, 9, 9);
+.insidelogin-images a, figure {
+    display: inline-block;
+}
+figcaption {
+    margin: 10px 0 0 0;
+    font-variant: small-caps;
+    font-family: Arial;
+    font-weight: bold;
+    color: #bb3333;
+}
+figure {
+    padding: 10px;
+    border: 2px solid silver;
+}
+.insidelogin-images img:hover {
+    transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.insidelogin-images img {
+    transition: transform 0.2s;
+    -webkit-transition: -webkit-transform 0.2s;
+    -moz-transition: -moz-transform 0.2s;
+    -o-transition: -o-transform 0.2s;
 }
 
 
